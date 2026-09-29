@@ -1,211 +1,197 @@
 {
-  "region": "Illinois, USA",
-  "total_cities": 22,
-  "total_edges": 35,
+  "region": "California, USA",
+  "total_cities": 20,
+  "total_edges": 34,
   "locations": {
-    "Chicago, IL": {
-      "lat": 41.8755616,
-      "lon": -87.6244212
+    "San Francisco, CA": {
+      "lat": 37.7879363,
+      "lon": -122.4075201
     },
-    "Aurora, IL": {
-      "lat": 41.7571701,
-      "lon": -88.3147539
+    "Oakland, CA": {
+      "lat": 37.8044557,
+      "lon": -122.271356
     },
-    "Naperville, IL": {
-      "lat": 41.7728699,
-      "lon": -88.1479278
+    "Berkeley, CA": {
+      "lat": 37.8708393,
+      "lon": -122.272863
     },
-    "Joliet, IL": {
-      "lat": 41.5263603,
-      "lon": -88.0840212
+    "San Rafael, CA": {
+      "lat": 37.9747795,
+      "lon": -122.5316686
     },
-    "Rockford, IL": {
-      "lat": 42.2713945,
-      "lon": -89.093966
+    "Santa Rosa, CA": {
+      "lat": 38.4404925,
+      "lon": -122.7141049
     },
-    "Springfield, IL": {
-      "lat": 39.7990175,
-      "lon": -89.6439575
+    "Napa, CA": {
+      "lat": 38.4898675,
+      "lon": -122.3218414
     },
-    "Peoria, IL": {
-      "lat": 40.6938609,
-      "lon": -89.5891008
+    "Vallejo, CA": {
+      "lat": 38.1040864,
+      "lon": -122.2566367
     },
-    "Elgin, IL": {
-      "lat": 42.03726,
-      "lon": -88.2810994
+    "Fairfield, CA": {
+      "lat": 38.2493581,
+      "lon": -122.039966
     },
-    "Waukegan, IL": {
-      "lat": 42.3602273,
-      "lon": -87.8318164
+    "Davis, CA": {
+      "lat": 38.5435526,
+      "lon": -121.739005
     },
-    "Champaign, IL": {
-      "lat": 40.1164841,
-      "lon": -88.2430932
+    "Sacramento, CA": {
+      "lat": 38.5810606,
+      "lon": -121.493895
     },
-    "Bloomington, IL": {
-      "lat": 40.4797828,
-      "lon": -88.9939147
+    "Stockton, CA": {
+      "lat": 37.9577016,
+      "lon": -121.290779
     },
-    "Decatur, IL": {
-      "lat": 39.8454163,
-      "lon": -88.9524151
+    "Modesto, CA": {
+      "lat": 37.6393419,
+      "lon": -120.9968892
     },
-    "Evanston, IL": {
-      "lat": 42.0470043,
-      "lon": -87.6846053
+    "San Jose, CA": {
+      "lat": 37.3361663,
+      "lon": -121.890591
     },
-    "Schaumburg, IL": {
-      "lat": 42.0333608,
-      "lon": -88.083406
+    "Santa Cruz, CA": {
+      "lat": 37.050096,
+      "lon": -121.99059
     },
-    "Arlington Heights, IL": {
-      "lat": 42.0811563,
-      "lon": -87.9802164
+    "Monterey, CA": {
+      "lat": 36.2231079,
+      "lon": -121.387742
     },
-    "Bolingbrook, IL": {
-      "lat": 41.7003302,
-      "lon": -88.0717708
+    "Salinas, CA": {
+      "lat": 36.6744117,
+      "lon": -121.655037
     },
-    "Palatine, IL": {
-      "lat": 42.1105502,
-      "lon": -88.0434304
+    "Fresno, CA": {
+      "lat": 36.7394421,
+      "lon": -119.78483
     },
-    "Skokie, IL": {
-      "lat": 42.0262972,
-      "lon": -87.7521069
+    "Chico, CA": {
+      "lat": 39.7284945,
+      "lon": -121.8374777
     },
-    "Des Plaines, IL": {
-      "lat": 42.0415823,
-      "lon": -87.8873916
+    "Redding, CA": {
+      "lat": 40.5863563,
+      "lon": -122.391675
     },
-    "Orland Park, IL": {
-      "lat": 41.630663,
-      "lon": -87.8536288
-    },
-    "Kankakee, IL": {
-      "lat": 41.1253903,
-      "lon": -87.848682
-    },
-    "DeKalb, IL": {
-      "lat": 41.8903447,
-      "lon": -88.7713953
+    "Reno, NV": {
+      "lat": 39.5261788,
+      "lon": -119.812658
     }
   },
   "graph": {
-    "Chicago, IL": {
-      "Evanston, IL": 14.1,
-      "Skokie, IL": 14.38,
-      "Des Plaines, IL": 20.1,
-      "Naperville, IL": 30.93,
-      "Joliet, IL": 44.54,
-      "Orland Park, IL": 26.33
+    "San Francisco, CA": {
+      "Oakland, CA": 10.48,
+      "Berkeley, CA": 12.23,
+      "San Rafael, CA": 18.41,
+      "San Jose, CA": 48.83
     },
-    "Aurora, IL": {
-      "Naperville, IL": 9.31,
-      "DeKalb, IL": 30.59,
-      "Joliet, IL": 22.48
+    "Oakland, CA": {
+      "San Francisco, CA": 10.48,
+      "Berkeley, CA": 5.04,
+      "Vallejo, CA": 25.81,
+      "San Jose, CA": 40.76
     },
-    "Naperville, IL": {
-      "Chicago, IL": 30.93,
-      "Schaumburg, IL": 26.31,
-      "Aurora, IL": 9.31,
-      "Bolingbrook, IL": 9.23
+    "Berkeley, CA": {
+      "San Francisco, CA": 12.23,
+      "Oakland, CA": 5.04,
+      "Vallejo, CA": 21.74
     },
-    "Joliet, IL": {
-      "Chicago, IL": 44.54,
-      "Aurora, IL": 22.48,
-      "Bolingbrook, IL": 13.11,
-      "Orland Park, IL": 19.69,
-      "Kankakee, IL": 35.48,
-      "Bloomington, IL": 95.12
+    "San Rafael, CA": {
+      "San Francisco, CA": 18.41,
+      "Santa Rosa, CA": 37.51,
+      "Vallejo, CA": 28.1
     },
-    "Rockford, IL": {
-      "DeKalb, IL": 45.9,
-      "Elgin, IL": 48.5,
-      "Peoria, IL": 140.71
+    "Santa Rosa, CA": {
+      "San Rafael, CA": 37.51,
+      "Napa, CA": 34.44
     },
-    "Springfield, IL": {
-      "Bloomington, IL": 65.77,
-      "Peoria, IL": 72.03,
-      "Decatur, IL": 38.71
+    "Napa, CA": {
+      "Santa Rosa, CA": 34.44,
+      "Vallejo, CA": 36.64,
+      "Fairfield, CA": 41.63,
+      "Davis, CA": 45.01
     },
-    "Peoria, IL": {
-      "Rockford, IL": 140.71,
-      "Bloomington, IL": 39.58,
-      "Springfield, IL": 72.03
+    "Vallejo, CA": {
+      "Oakland, CA": 25.81,
+      "Berkeley, CA": 21.74,
+      "San Rafael, CA": 28.1,
+      "Napa, CA": 36.64,
+      "Fairfield, CA": 17.85
     },
-    "Elgin, IL": {
-      "Schaumburg, IL": 14.5,
-      "DeKalb, IL": 35.41,
-      "Rockford, IL": 48.5
+    "Fairfield, CA": {
+      "Napa, CA": 41.63,
+      "Vallejo, CA": 17.85,
+      "Davis, CA": 28.3,
+      "Sacramento, CA": 42.17
     },
-    "Waukegan, IL": {
-      "Arlington Heights, IL": 30.05,
-      "Evanston, IL": 28.05
+    "Davis, CA": {
+      "Fairfield, CA": 28.3,
+      "Sacramento, CA": 15.27,
+      "Napa, CA": 45.01
     },
-    "Champaign, IL": {
-      "Kankakee, IL": 77.88,
-      "Bloomington, IL": 50.78,
-      "Decatur, IL": 47.15
+    "Sacramento, CA": {
+      "Fairfield, CA": 42.17,
+      "Davis, CA": 15.27,
+      "Stockton, CA": 49.19,
+      "Chico, CA": 89.45,
+      "Redding, CA": 161.42,
+      "Reno, NV": 131.99
     },
-    "Bloomington, IL": {
-      "Joliet, IL": 95.12,
-      "Peoria, IL": 39.58,
-      "Champaign, IL": 50.78,
-      "Decatur, IL": 45.63,
-      "Springfield, IL": 65.77
+    "Stockton, CA": {
+      "Sacramento, CA": 49.19,
+      "Modesto, CA": 31.62,
+      "San Jose, CA": 72.74
     },
-    "Decatur, IL": {
-      "Bloomington, IL": 45.63,
-      "Springfield, IL": 38.71,
-      "Champaign, IL": 47.15
+    "Modesto, CA": {
+      "Stockton, CA": 31.62,
+      "San Jose, CA": 81.87,
+      "Fresno, CA": 95.53
     },
-    "Evanston, IL": {
-      "Chicago, IL": 14.1,
-      "Skokie, IL": 4.98,
-      "Waukegan, IL": 28.05
+    "San Jose, CA": {
+      "San Francisco, CA": 48.83,
+      "Oakland, CA": 40.76,
+      "Stockton, CA": 72.74,
+      "Modesto, CA": 81.87,
+      "Santa Cruz, CA": 27.58,
+      "Salinas, CA": 59.68
     },
-    "Schaumburg, IL": {
-      "Palatine, IL": 7.01,
-      "Elgin, IL": 14.5,
-      "Naperville, IL": 26.31
+    "Santa Cruz, CA": {
+      "San Jose, CA": 27.58,
+      "Monterey, CA": 87.44,
+      "Salinas, CA": 39.74
     },
-    "Arlington Heights, IL": {
-      "Des Plaines, IL": 5.76,
-      "Palatine, IL": 4.07,
-      "Waukegan, IL": 30.05
+    "Monterey, CA": {
+      "Santa Cruz, CA": 87.44,
+      "Salinas, CA": 48.15
     },
-    "Bolingbrook, IL": {
-      "Naperville, IL": 9.23,
-      "Joliet, IL": 13.11
+    "Salinas, CA": {
+      "San Jose, CA": 59.68,
+      "Santa Cruz, CA": 39.74,
+      "Monterey, CA": 48.15,
+      "Fresno, CA": 141.71
     },
-    "Palatine, IL": {
-      "Arlington Heights, IL": 4.07,
-      "Schaumburg, IL": 7.01
+    "Fresno, CA": {
+      "Modesto, CA": 95.53,
+      "Salinas, CA": 141.71
     },
-    "Skokie, IL": {
-      "Chicago, IL": 14.38,
-      "Evanston, IL": 4.98,
-      "Des Plaines, IL": 7.4
+    "Chico, CA": {
+      "Sacramento, CA": 89.45,
+      "Redding, CA": 71.63
     },
-    "Des Plaines, IL": {
-      "Chicago, IL": 20.1,
-      "Skokie, IL": 7.4,
-      "Arlington Heights, IL": 5.76
+    "Redding, CA": {
+      "Chico, CA": 71.63,
+      "Sacramento, CA": 161.42,
+      "Reno, NV": 198.57
     },
-    "Orland Park, IL": {
-      "Chicago, IL": 26.33,
-      "Joliet, IL": 19.69
-    },
-    "Kankakee, IL": {
-      "Joliet, IL": 35.48,
-      "Champaign, IL": 77.88
-    },
-    "DeKalb, IL": {
-      "Elgin, IL": 35.41,
-      "Rockford, IL": 45.9,
-      "Aurora, IL": 30.59
+    "Reno, NV": {
+      "Sacramento, CA": 131.99,
+      "Redding, CA": 198.57
     }
   }
 }

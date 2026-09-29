@@ -1,6 +1,8 @@
 import os
 import json
 from flask import Flask, render_template, jsonify, request
+from uninformed import bfs, dfs, ucs, ids
+from informed import greedy_best_first, a_star
 
 app = Flask(__name__)
 
@@ -36,25 +38,38 @@ def get_map():
     data = load_map_data()
     return jsonify(data)
 
-
 @app.route("/api/search", methods=["POST"])
 def search():
-    """
-    Search endpoint placeholder for deployment testing.
-    """
     payload = request.get_json() or {}
     start = payload.get("start", "")
     goal = payload.get("goal", "")
     algorithm = payload.get("algorithm", "")
+    
+    data = load_map_data()
+    
+    graph = data.get("graph", {})
+    locations = data.get("locations", {})
+    
+    algorithm_map = {
+        "bfs": lambda: bfs(graph, start, goal),
+        "dfs": lambda: dfs(graph, start, goal),
+        "ucs": lambda: ucs(graph, start, goal),
+        "ids": lambda: ids(graph, start, goal),
+        "greedy": lambda: greedy_best_first(graph, locations, start, goal),
+        "astar": lambda: a_star(graph, locations, start, goal)
+    }
+    
+    selected_algorithm = algorithm_map.get(algorithm)
+    
+    result = selected_algorithm()
 
     return jsonify({
-        "status": "ready",
+        "status": "success",
         "message": f"Deployment server active. Request received for algorithm '{algorithm}' from '{start}' to '{goal}'.",
-        "path": [],
-        "cost": 0,
-        "nodes_expanded": 0
+        "path": result["path"],
+        "cost": result["distance"],
+        "nodes_expanded": result["expanded"]
     })
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
